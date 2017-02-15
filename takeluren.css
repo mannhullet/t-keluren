@@ -1,0 +1,140 @@
+/* Kommentar */
+
+body {
+    width: 100%;
+    background-color:#3d4a73;
+}
+
+.navigasjonsbar {
+    width: 70%;
+    background-color:darkgray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigasjonsbar-content {
+    width: 100%;
+    border: 1px solid #fff;
+    border-left: none;
+}
+
+.navigasjonsbar-content ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.navigasjonsbar-content ul li {
+    list-style: none; /* Fjerner '*' foran hvert punkt på listen */
+    flex-grow: 1;
+    text-align: center;
+    border-left: 1px solid #fff;
+    padding: 5px;
+}
+
+.navigasjonsbar-content ul li a {
+    display: block;
+    text-decoration: none; /* Fjerner understreken fra hyperlinkene */
+    color: white; /* Gjør hyperlinkene (teksten i a) hvite */
+    font-family: Helvetica, "Times New Roman", serif;
+    font-size: 1.8vw;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.navigasjonsbar-content ul li a:hover {
+    color:black;
+}
+
+.navigasjonsbar-content ul li:first-child {
+	/* Første element */
+}
+
+.navigasjonsbar-content ul li:last-child {
+	/* Siste element */
+}
+
+.dropdown-button {
+	position: block;
+    text-decoration: none; /* Fjerner understreken fra hyperlinkene */
+    color: white; /* Gjør hyperlinkene (teksten i a) hvite */
+	background-color: darkgray;
+    font-family: Helvetica, "Times New Roman", serif;
+    font-size: 1.8vw;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+	cursor: pointer;
+	border: none;
+}
+
+.dropdown-button:hover {
+	color: black;
+}
+
+.dropdown {
+	width: 100%;
+	position: relative;
+	display: inline-block;
+}
+
+ .dropdown-content {
+	width: 100%;
+	display: none;
+	position: absolute;
+	min-width: auto;
+	background-color:black;
+	z-index:10;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.head-picture {
+	position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head-picture img {
+    width: 100%;
+    position: absolute;
+	max-height: 40vw;
+}
+
+.head-picture-text {
+    margin-right: auto:
+    position:absolute;
+    background: #fff;
+    width: auto;
+    height: auto;
+    opacity: 1;
+	text-align: center;
+	opacity: 0;
+}
+
+.head-picture:hover .head-picture-text {
+    opacity: 0.6;
+    text-align: justify;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Times New Roman", Times, serif;
+    padding: 30px;
+	transition-delay: 0.5s;
+}
+
+# main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
