@@ -134,6 +134,11 @@ body {
 	transition-delay: 0.5s;
 }
 
+.button {
+  position: fixed;
+  bottom: 20px;
+}
+
 # main {
     transition: margin-left .5s;
     padding: 20px;
