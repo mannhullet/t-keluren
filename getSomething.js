@@ -1,7 +1,7 @@
 function getSomething(){
 
 var myObj={"objekter":[
-    {"tekst":"element1","element2","element3"},
+    {"tekst":"element1","element2":"element3"},
     {"tekst":"element4","element5":"element6",},
     {"tekst":"element7","element8":"element9",}
                       ]};
