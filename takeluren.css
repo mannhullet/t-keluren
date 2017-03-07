@@ -4,7 +4,6 @@ body {
     width: 100%;
     background-color:#F2F2F2;
 
-
 }
 
 .navigasjonsbar {
@@ -136,11 +135,6 @@ body {
 	transition-delay: 0.5s;
 }
 
-<<<<<<< Updated upstream
-.button {
-  position: fixed;
-  bottom: 20px;
-=======
 
 .content {
 width: 100%;
@@ -157,15 +151,28 @@ height: 100px;
 }
 
 .contentmid {
-background-color: blue;
+background-color: #F2F2F2;
 width: 40%;
 float:left;
 height: 100px;
 
 }
+.knapp{
+  border: none;
+  border-radius: 8px;
+  padding: 25px;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.takelurmunn{
+border-radius: 8px;
+
+}
 
 .contentrigth {
-background-color: blue;
+background-color: #F2F2F2;
 width: 25%;
 float:left;
 height: 100px;
