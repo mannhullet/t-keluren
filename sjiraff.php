@@ -21,7 +21,7 @@
     <div class="navigasjonsbar">
         <div class="navigasjonsbar-content">
             <ul>
-				<li> <a href="sjiraff.html">Sjiraffenvers</a></li>
+				<li> <a href="sjiraff.php">Sjiraffenvers</a></li>
 				<li> <div class="dropdown">
 					<button class="dropdown-button">Om oss</button>
 					</div>
@@ -62,11 +62,6 @@
 
 <p id="demo"></p>
 
-<script>
-function myFunction() {
-    var x = document.getElementById("myText").value;
-}
-</script>
 
   </div>
       <div class = "contentmid">

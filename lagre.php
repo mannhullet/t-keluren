@@ -20,4 +20,5 @@ $prev = json_encode($prev, JSON_UNESCAPED_SLASHES);
 
 file_put_contents('sjiraffen.js', $prev);
 
-header('Location: sjiraffen.php');
+header('Location: sjiraff.php');
+?>
