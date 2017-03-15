@@ -9,8 +9,12 @@ $prev = json_decode($prev, true);
 
 $vsize = count($prev['sjiraffenvers']);
 
+<<<<<<< Updated upstream
 $prev['sjiraffenvers'][$vsize]['tekst'] = nl2br($text);
 $prev['sjiraffenvers'][$vsize]['dato'] = date('d.m.y');
+=======
+$prev['sjiraffenvers'][]['tekst'] = $text;
+>>>>>>> Stashed changes
 
 $prev = json_encode($prev, JSON_UNESCAPED_SLASHES);
 
