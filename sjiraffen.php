@@ -5,8 +5,8 @@
     <meta name="blå web nettside mannhullet marin tåkeluren teknikk php javascript">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="takeluren.css" rel="stylesheet" type="text/css">
-    <link href="sjiraffen.css" rel="stylesheet" type="text/css">
-    <script src="sjiraffen.js" type="text/javascript"></script>
+    <!--<link href="sjiraffen.css" rel="stylesheet" type="text/css">-->
+    <!--<script src="sjiraffen.js" type="text/javascript"></script>-->
     <script src="getVerse.js" type="text/javascript"></script>
     <title>Sjiraffenvers</title>
 </head>
@@ -65,7 +65,7 @@
 <script>
 function myFunction() {
     var x = document.getElementById("myText").value;
-
+}
 </script>
 
   </div>

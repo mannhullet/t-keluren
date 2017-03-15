@@ -1,14 +1,12 @@
 function getVerse(){
+  text=document.getElementById("vers").innerHTML;
 
+  obj=JSON.parse(text);
 
+  var antallVers = obj.sjiraffenvers.length;
 
-text=document.getElementById("vers").value;
-obj=JSON.parse(text);
+  var i = Math.floor((Math.random() * antallVers));
 
-
-var antallVers = obj.sjiraffenvers.length;
-var i = Math.floor((Math.random() * antallVers));
-
-document.getElementById("visvers").innerHTML= obj.sjiraffenvers(i).tekst;
+  document.getElementById("visvers").innerHTML= obj.sjiraffenvers[i]['tekst'];
 
 }
