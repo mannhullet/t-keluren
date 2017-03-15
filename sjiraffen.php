@@ -12,6 +12,12 @@
 </head>
 <!-- Kommentar -->
 <body>
+    <div id="vers" style="display: none;">
+      <?php
+        print(file_get_contents('sjiraffen.js'));
+      ?>
+    </div>
+
     <div class="navigasjonsbar">
         <div class="navigasjonsbar-content">
             <ul>
@@ -41,13 +47,18 @@
 <div class = "content">
   <div class = "contentleft">
 <h3>Skriv inn sjiraffenvers her:</h3>
-<textarea class="inputbox" id="myText" rows="4" cols="50"
-  placeholder="Jeg kjøpte meg en himmelseng...">
-</textarea>
-<button class="knappen" onclick="myFunction()"><svg fill="#FFFFFF" height="24" viewBox="0 0 24 15" width="24" xmlns="http://www.w3.org/2000/svg">
+<form method="post" action="lagre.php">
+  <textarea class="inputbox" id="myText" name="myText" rows="4" cols="50"
+    placeholder="Jeg kjøpte meg en himmelseng...">
+  </textarea>
+
+  <input type="submit" value="Lagre">
+</form>
+
+<!-- class="knappen" onclick="myFunction()"><svg fill="#FFFFFF" height="24" viewBox="0 0 24 15" width="24" xmlns="http://www.w3.org/2000/svg">
     <path d="M0 0h24v24H0z" fill="none"/>
     <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/>
-</svg>Send inn</button>
+</svg>Send inn</button>-->
 
 <p id="demo"></p>
 
@@ -55,16 +66,6 @@
 function myFunction() {
     var x = document.getElementById("myText").value;
 
-    var FileSaver = require('file-saver');
-  var blob = new Blob(["Hello, world!"], {type: "text/plain;charset=utf-8"});
-  FileSaver.saveAs(blob, "hello world.txt");
-}
-
-    //var newVerse = {"tekst": + x , "dato":};
-    //var myObj += ;
-    //document.getElementById("demo").innerHTML = x;
-    // lage insert
-}
 </script>
 
   </div>

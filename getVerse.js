@@ -1,19 +1,14 @@
 function getVerse(){
 
-// Gjør om fra objekt til JSON string, og tilbake til objekt igjen. Unødvendig
-/*
-var myJSON=JSON.stringify(myObj);
 
 
-localStorage.setItem("testJSON", myJSON);
-
-text=localStorage.getItem("testJSON");
+text=document.getElementById("vers").value;
 obj=JSON.parse(text);
-*/
 
-var antallVers = Object.keys(myObj["sjiraffenvers"]).length;
+
+var antallVers = obj.sjiraffenvers.length;
 var i = Math.floor((Math.random() * antallVers));
 
-document.getElementById("visvers").innerHTML= myObj["sjiraffenvers"][i]["tekst"];
+document.getElementById("visvers").innerHTML= obj.sjiraffenvers(i).tekst;
 
 }
