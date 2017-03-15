@@ -1,5 +1,5 @@
 function getVerse(){
-  text=document.getElementById("vers").innerHTML;
+  text=document.getElementById("hentvers").innerHTML;
 
   obj=JSON.parse(text);
 
@@ -7,6 +7,9 @@ function getVerse(){
 
   var i = Math.floor((Math.random() * antallVers));
 
-  document.getElementById("visvers").innerHTML= obj.sjiraffenvers[i]['tekst'];
+  document.getElementById("visVers").innerHTML= obj.sjiraffenvers[i]['tekst'];
+  document.getElementById("visForfatter").innerHTML= "Forfatter: " + obj.sjiraffenvers[i]['forfatter'];
+  document.getElementById("visKommentar").innerHTML= "Kommentar: " + obj.sjiraffenvers[i]['kommentar'];
+  document.getElementById("visDato").innerHTML= "Skrevet: " + obj.sjiraffenvers[i]['dato'];
 
 }

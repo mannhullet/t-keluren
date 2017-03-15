@@ -5,16 +5,14 @@
     <meta name="blå web nettside mannhullet marin tåkeluren teknikk php javascript">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="takeluren.css" rel="stylesheet" type="text/css">
-    <!--<link href="sjiraffen.css" rel="stylesheet" type="text/css">-->
-    <!--<script src="sjiraffen.js" type="text/javascript"></script>-->
     <script src="getVerse.js" type="text/javascript"></script>
     <title>Sjiraffenvers</title>
 </head>
 <!-- Kommentar -->
 <body>
-    <div id="vers" style="display: none;">
+    <div id="hentvers" style="display: none;">
       <?php
-        print(file_get_contents('sjiraffen.js'));
+        print(file_get_contents('sjiraff.js'));
       ?>
     </div>
 
@@ -42,43 +40,44 @@
             </ul>
         </div>
     </div>
-		</div>
-	</div>
+
 <div class = "content">
   <div class = "contentleft">
-<h3>Skriv inn sjiraffenvers her:</h3>
-<form method="post" action="lagre.php">
-  <textarea class="inputbox" id="myText" name="myText" rows="4" cols="50"
-    placeholder="Jeg kjøpte meg en himmelseng...">
-  </textarea>
-
-  <input type="submit" value="Lagre">
-</form>
-
-<!-- class="knappen" onclick="myFunction()"><svg fill="#FFFFFF" height="24" viewBox="0 0 24 15" width="24" xmlns="http://www.w3.org/2000/svg">
-    <path d="M0 0h24v24H0z" fill="none"/>
-    <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/>
-</svg>Send inn</button>-->
-
-<p id="demo"></p>
-
+      <h3>Skriv inn sjiraffenvers her:</h3>
+      <form method="post" action="saveVerse.php">
+        <textarea class="inputbox" id="formText" name="formText" rows="4" cols="50"
+          placeholder="Jeg kjøpte meg en himmelseng...">
+        </textarea>
+        <textarea class="inputbox" id="formAuthor" name="formAuthor" rows="1" cols="50"
+          placeholder="Navn...">
+        </textarea>
+        <textarea class="inputbox" id="formComment" name="formComment" rows="2" cols="50"
+          placeholder="Annen info...">
+        </textarea>
+        <div = "submitButton">
+        <input type="submit" value="Lagre">
+       </div>
+      </form>
 
   </div>
-      <div class = "contentmid">
+
+  <div class = "contentmid">
         <button type = "button" onclick="getVerse();">  <img class = "takelurmunn"
           src="img/tak4.jpg" ></button>
-           <p id="visvers">Her er det tomt</p>
+           <p id="visVers"></p>
+           <p id="visForfatter"></p>
+           <p id="visKommentar"></p>
+           <p id="visDato"></p>
+  </div>
 
 
-
-
-          </div>
-    <div class = "contentrigth">
+  <div class = "contentrigth">
+    heiheihie
+      <div class = "scrollbar">
+        disuhijlkø
+      </div>
   </div>
 </div>
-
-
-
 
 
 </body>
