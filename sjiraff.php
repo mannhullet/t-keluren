@@ -61,10 +61,10 @@
   <div class = "contentmid">
         <button type = "button" onclick="getVerse();">  <img class = "takelurmunn"
           src="img/tak4.jpg" ></button>
-           <p id="visVers"></p>
-           <p id="visForfatter"></p>
-           <p id="visKommentar"></p>
-           <p id="visDato"></p>
+           <p id="visVers" class="mainInfo"></p>
+           <p id="visForfatter" class="extraInfo"></p>
+           <p id="visKommentar" class="extraInfo"></p>
+           <p id="visDato" class="extraInfo"></p>
   </div>
 
 </div>

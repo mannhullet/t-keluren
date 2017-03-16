@@ -204,10 +204,21 @@ h3 {
   font-weight: 300;
   font-family: "Helvetica Neue";
   font-size: 20px;
->>>>>>> Stashed changes
 }
 
 # main {
     transition: margin-left .5s;
     padding: 20px;
+}
+
+.mainInfo{
+    font-size: 150%;
+}
+
+.extraInfo {
+    margin: 0;
+}
+
+.infoDescription {
+    font-weight: bold;
 }
