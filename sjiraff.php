@@ -17,30 +17,7 @@
       ?>
     </div>
 
-    <div class="navigasjonsbar">
-        <div class="navigasjonsbar-content">
-            <ul>
-				<li> <a href="sjiraff.php">Sjiraffenvers</a></li>
-				<li> <div class="dropdown">
-					<button class="dropdown-button">Om oss</button>
-					</div>
-				</li>
-				<li> <div class="dropdown">
-					<button class="dropdown-button">Språk</button>
-					</div>
-				</li>
-				<li> <div class="dropdown">
-					<button class="dropdown-button">Prosjekter</button>
-					</div>
-				</li>
-				<li> <div class="dropdown">
-					<button class="dropdown-button">Kontakt oss</button>
-					</div>
-				</li>
 
-            </ul>
-        </div>
-    </div>
 
 <div class = "content">
   <div class = "contentleft">
@@ -50,27 +27,27 @@
           placeholder="Jeg kjøpte meg en himmelseng..."></textarea>
         <textarea class="inputbox" id="formAuthor" name="formAuthor" rows="1" cols="50"
           placeholder="Navn..."></textarea>
-        <textarea class="inputbox" id="formComment" name="formComment" rows="2" cols="50"
+        <textarea class="inputbox" id="formComment" name="formComment" rows="1" cols="50"
           placeholder="Annen info..."></textarea>
         <div = "submitButton">
-        <input type="submit" value="Lagre">
+        <input type="submit" value="Send inn!" class ="knapp">
        </div>
       </form>
+      <div class = "scrollbarWindow">
+        <p id="visAlleVers"></p>
 
+      </div>
   </div>
 
   <div class = "contentmid">
-        <button type = "button" onclick="getVerse(); ">  <img class = "takelurmunn"
-          src="img/tak4.jpg" ></button>
+        <button type = "button" onclick="getVerse(); " class = "takelurmunn">  <img
+          src="img/tak4.jpg" style="width:450px;" ></button>
            <p id="visVers" class="mainInfo"></p>
            <p id="visForfatter" class="extraInfo"></p>
            <p id="visKommentar" class="extraInfo"></p>
            <p id="visDato" class="extraInfo"></p>
   </div>
-  <div class = "contentright">
-    <p id="visAlleVers"></p>
 
-  </div>
 
 
 </div>
