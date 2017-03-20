@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {"sjiraffenvers":[{"tekst":"Jeg \u00f8nsker meg en himmelseng<br/>en himmelseng med speil i<br/>s\u00e5 jeg kan ligge og speile meg<br/>og se hvor jeg er deilig.","dato":"","kommentar":"Originalt vers"},
 {"tekst":"Sjiraffen den har fire ben<br/>mannen han har två<br/>Kuken min har ingen ben<br/>men den kan enda stå.","dato":"","kommentar":"Hentet fra Tåkelurenheftet"},
 {"tekst":"Hesten den har fire ben<br/>og eselet har mule<br/>alle jenter gleder<br/>når de skal ut og reise til Amerika.","dato":"","kommentar":"Originalt vers"},
@@ -24,6 +23,3 @@
 {"tekst":"Jentene i åsblæsten<br/>de er så jævlig stygge<br/>de jager oss i Oslo, men<br/>i Trondheim er vi trygge.","dato":"","kommentar":"Hentet fra Tåkelurenheftet"},
 {"tekst":"Samfundet i Ås<br/>skulle være for oss alle<br/>men det som ingen visste<br/>var at Samfundet var en balle.","dato":"","kommentar":"Hentet fra Tåkelurenheftet"},
 {"tekst":"Jeg datet ei på åsblæsten<br/>vi begynte litt å deale<br/>jeg tok ei hagle og drepte ho<br/>for jeg er NEKROFIL'E!!!","dato":"","kommentar":"Hentet fra Tåkelurenheftet"}]}
-=======
-{"sjiraffenvers":[{"tekst":"Jeg \u00f8nsker meg en himmelseng <br/>en himmelseng med speil i,<br/>s\u00e5 jeg kan ligge og speile meg <br/>og se hvor jeg er deilig.","dato":"15.02.17","kommentar":"Originalt vers, tatt fra Onlines hjemmeside"},{"tekst":"Jeg m\u00f8tte p\u00e5 en homofil <br/>han ville ta meg bakfra <br/>men jeg tok \u00e5 lurte han <br/>jeg snudde meg og gapa","dato":"15.02.17","kommentar":"Originalt vers, tatt fra Onlines hjemmeside"},{"tekst":"Jeg m\u00f8tte p\u00e5 en lommemann<br/>han hadde no' i lomma<br/>det var ikke sukkert\u00f8y<br/>jeg klemte til, det skumma","dato":"15.02.17","kommentar":"Originalt vers, tatt fra Onlines hjemmeside"},{"tekst":"Som opptak har vi Barslingen<br />\r\nEt vellykket konsept<br />\r\nMen leser du avsien<br />\r\nSkulle'n tro at vi blir drept","forfatter":"Sebastian Rindvoll","kommentar":"100-\u00e5rssang","dato":"20.03.17"},{"tekst":"","forfatter":"","kommentar":"","dato":"20.03.17"}]}
->>>>>>> origin/master
