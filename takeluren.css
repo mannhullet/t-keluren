@@ -171,9 +171,15 @@ border-radius: 8px;
 }
 
 .contentright {
-  background-color: lightblue;
-  width: 10px;
-  border: 25px solid green;
+  position: relative;
+  overflow: scroll;
+  overflow-x: hidden;
+  background-color: darkgray;
+  width: 20%;
+  height: 200px;
+  border: 1px solid white;
+  float: right;
+  right: 9.25%;
   padding: 25px;
   margin: 10px;
 }
