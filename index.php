@@ -13,7 +13,7 @@
 <body>
     <div id="hentvers" style="display: none;">
       <?php
-        print(file_get_contents('sjiraff.js'));
+        print(file_get_contents('sjiraff.json'));
       ?>
     </div>
 
