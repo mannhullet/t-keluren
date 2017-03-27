@@ -23,4 +23,4 @@ $prev = json_encode($prev, JSON_UNESCAPED_SLASHES);
 
 file_put_contents('sjiraff.json', $prev);
 
-header('Location: sjiraff.php');
+header('Location: index.php');
