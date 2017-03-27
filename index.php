@@ -5,6 +5,7 @@
     <meta name="blå web nettside mannhullet marin tåkeluren teknikk php javascript">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="takeluren.css" rel="stylesheet" type="text/css">
+    <link href="mob.css" rel = "stylesheet" type="text/css" media = "only screen and (max-device-width: 480px)">
     <script src="getVerse.js" type="text/javascript"> </script>
     <script src ="showVerses.js" type="text/javascript"></script>
     <title>Sjiraffenvers</title>
@@ -35,17 +36,19 @@
       </form>
       <div class = "scrollbarWindow">
         <p id="visAlleVers"></p>
-
       </div>
   </div>
 
   <div class = "contentmid">
         <button type = "button" onclick="getVerse(); " class = "takelurmunn">  <img
-          src="img/tak4.jpg" style="width:450px;" ></button>
-           <p id="visVers" class="mainInfo"></p>
-           <p id="visForfatter" class="extraInfo"></p>
-           <p id="visKommentar" class="extraInfo"></p>
-           <p id="visDato" class="extraInfo"></p>
+          src="img/tak4.png" style="width:100%;" ></button>
+            <div class="versUt">
+             <p id="plassholder" class="plassholder2">Trykk på bildet for å få et vers</p>
+             <p id="visVers" class="mainInfo"></p>
+             <p id="visForfatter" class="extraInfo"></p>
+             <p id="visKommentar" class="extraInfo"></p>
+             <p id="visDato" class="extraInfo"></p>
+           </div>
   </div>
 
 
