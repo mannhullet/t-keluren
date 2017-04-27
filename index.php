@@ -25,7 +25,7 @@
       <h3>Skriv inn sjiraffenvers her:</h3>
       <form method="post" action="saveVerse.php">
         <textarea class="inputbox" id="formText" name="formText" rows="4" cols="50"
-          placeholder="Jeg kjøpte meg en himmelseng..."></textarea>
+          placeholder="Jeg kjøpte meg en himmelseng..." required></textarea>
         <textarea class="inputbox" id="formAuthor" name="formAuthor" rows="1" cols="50"
           placeholder="Navn..."></textarea>
         <textarea class="inputbox" id="formComment" name="formComment" rows="1" cols="50"
