@@ -1,7 +1,7 @@
-function showVerses(){
-  text=document.getElementById("hentvers").innerHTML;
+function showVerses() {
+  text = document.getElementById("hentvers").innerHTML;
 
-  obj=JSON.parse(text);
+  obj = JSON.parse(text);
 
   var antallVers = obj.sjiraffenvers.length;
 
