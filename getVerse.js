@@ -1,13 +1,22 @@
 function getVerse() {
-  text = document.getElementById("hentvers").innerHTML;
-
-  obj = JSON.parse(text);
-
+  var text = document.getElementById("hentvers").innerHTML;
+  var obj = JSON.parse(text);
   var antallVers = obj.sjiraffenvers.length;
 
-  /*TODO: legg inn "hukommelse" for hva som har blitt trekkt. Ikke trekk ny før
-          alle har blitt vist minst 1 gang */
-  var i = Math.floor((Math.random() * antallVers));
+  // Create a list of verse indexes that have not yet been used, if it does
+  // not already exist. Repopulate it if it is empty.
+  if (typeof getVerse.availableIndexes == 'undefined') {
+    getVerse.availableIndexes = [];
+  }
+  if (getVerse.availableIndexes.length === 0) {
+    for (n = 0; n < antallVers; n++) {
+      getVerse.availableIndexes[n] = n;
+    }
+  }
+
+  // Draw one of the available indexes at random, and remove it from the list
+  var index = Math.floor((Math.random() * getVerse.availableIndexes.length));
+  var i = getVerse.availableIndexes.splice(index, 1)[0];
 
   document.getElementById("plassholder").innerHTML = "<span class=\"infoDescription\"> Trykk igjen for nytt vers! </span>";
   document.getElementById("visVers").innerHTML = obj.sjiraffenvers[i].tekst;
@@ -16,6 +25,7 @@ function getVerse() {
   var kommentar = obj.sjiraffenvers[i].kommentar;
   var dato = obj.sjiraffenvers[i].dato;
 
+  // Give default values to fields that are not defined
   if (forfatter === undefined) {
     forfatter = "Ukjent";
   }
